@@ -1,0 +1,26 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@ae-blue        : #1E558A; 
+@ae-yellow      : #FF8F13;
+
+@primaryColor   : @ae-blue;
+@secondaryColor : @ae-yellow;
+@red            : #db2828;
+@orange         : #FE9A76;
+@yellow         : #FF8F13;
+@olive          : #b5cc18;
+@green          : #0fab0b;
+@teal           : #008080;
+@blue           : #0E6EB8;
+@dark-blue      : darken(@blue, 20%);
+@violet         : #EE82EE;
+@purple         : #B413EC;
+@pink           : #FF1493;
+@brown          : #A52A2A;
+@grey           : #A0A0A0;
+@black          : #000000;
+
+@relativeBorderRadius: 5px;
+@absoluteBorderRadius: 5px;
