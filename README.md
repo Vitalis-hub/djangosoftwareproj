@@ -8,7 +8,7 @@ The first thing to do is to clone the repository:
 $ git clone https://github.com/FendyPierre/UCOMap.git
 ```
 
-Create a virtual environment to install dependencies in and activate it:
+Optional: Create a virtual environment to install dependencies in and activate it:
 
 ```sh
 $ virtualenv2 --no-site-packages env
