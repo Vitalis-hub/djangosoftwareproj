@@ -1,4 +1,4 @@
-# GoCardless sample application
+# UCO Wheelchair Direction App
 
 ## Setup
 
