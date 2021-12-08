@@ -2,6 +2,7 @@
 {% load static %}
 {% block title %} UCO Map {% endblock %}
 {% block pagecontent %}
+
 <div class="ui one column center aligned page grid">
     <div class="ui grid">
       <div class="two wide column">
@@ -53,7 +54,7 @@
         <div class="hidden ui divider"></div>
 
         <div class="ui massive image">
-          <img src="{% static 'assets/campusmap.png' %}">
+          <img src="{% static 'back/assets/campusmap.png' %}">
         </div>
     </div>
     {% include "partials/map_modal.html" %}

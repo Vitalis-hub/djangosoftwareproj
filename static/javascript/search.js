@@ -4,11 +4,19 @@ var btnContainer = null
 var btns = null
 var originManuallyInput = true
 
+var defaultBounds = new google.maps.LatLngBounds(
+  new google.maps.LatLng(35.653791, -97.472436),
+  new google.maps.LatLng(35.6534127, -97.470890));
 function setOriginVar(){
     origin = $('#origin-search-id').search('get value');
 }
 
 function setDestinationVar(){
+    var input = document.getElementById('destination-search-id');
+    var searchBox = new google.maps.places.SearchBox(input, {
+      bounds: defaultBounds
+    });
+
     destination = $('#destination-search-id').search('get value');
 }
 
